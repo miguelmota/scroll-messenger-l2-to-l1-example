@@ -1,6 +1,6 @@
 # Scroll zkEVM Messenger L2->L1 Example
 
-> Send a message from L2 Scroll zkEVM testnet to L1 Goerli.
+> Send a message from L2 [Scroll zkEVM](https://scroll.io/alpha) testnet to L1 Goerli.
 
 ## Example
 
@@ -103,6 +103,10 @@ Output
 ```sh
 greeting: hello world
 ```
+
+### Send L1->L2 Message
+
+See [https://github.com/miguelmota/scroll-messenger-l1-to-l2-example](https://github.com/miguelmota/scroll-messenger-l1-to-l2-example)
 
 ## License
 
