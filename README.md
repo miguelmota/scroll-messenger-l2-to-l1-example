@@ -15,6 +15,7 @@ It sends the encoded calldata to execute `setGreeting` on L1 which can only be c
 - [`L1Contract.sol`](./contracts/L1Contract.sol)
 - [`deployL2.js`](./script/deployL2.js)
 - [`deployL1.js`](./scripts/deployL1.js)
+- [`getRelayFee.js`](./script/getRelayFee.js)
 - [`sendL2ToL1Message.js`](./scripts/sendL2ToL1Message.js)
 - [`getGreetingOnL1.js`](./scripts/getGreetingOnL1.js)
 
@@ -69,6 +70,22 @@ Output
 
 ```sh
 L1Contract deployed to: 0xc99668601516205D2305383c96134814b1f2CC11
+```
+
+### Get Relay Fee
+
+Command
+
+```sh
+npx hardhat run --network scroll scripts/getRelayFee.js
+```
+
+Output
+
+```sh
+l1BaseFee: 0.000000015391181204
+gasLimit: 500000
+fee: 0.007695590602
 ```
 
 ### Send L2->L1 Message
